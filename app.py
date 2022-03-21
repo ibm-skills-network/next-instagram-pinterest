@@ -208,7 +208,7 @@ def find():
         new_file_path=Path(app.config['OBJECTS_PATH']).joinpath(new_file_name)
 
         #save file we  use opencv as the  boxes look better 
-        cv2.imwrite(new_file_path, image_numpy)
+        cv2.imwrite(str(new_file_path), image_numpy)
 
         #get differnet objects and save as image 
 
