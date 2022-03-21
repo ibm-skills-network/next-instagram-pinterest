@@ -4,7 +4,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    image: us.icr.io/cv-studio-access/fater-r-cnn3:latest
+    image: us.icr.io/cv-studio-access/faster-r-cnn3:latest
     working_dir: /app
     ports:
       - "8080:8080"
