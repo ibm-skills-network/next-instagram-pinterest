@@ -9,3 +9,6 @@ services:
     ports:
       - "8080:8080"
     read_only: true
+    tmpfs:
+      - /home/ci:uid=1001,gid=1001
+      - /tmp
